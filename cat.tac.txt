@@ -1,2 +1,8 @@
 cat -n filename.txt #cat with line number
 tac filename #view bottome of file at top
+
+#cat.output.to.create.file
+cat /dev/mtd0 > /tmp/backup_fullflash.bin
+cat /dev/mtd5 >> /tmp/backup_fullflash.bin
+cat /dev/mtd4 >> /tmp/backup_fullflash.bin
+
