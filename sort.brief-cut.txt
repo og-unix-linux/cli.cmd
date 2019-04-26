@@ -1,0 +1,9 @@
+sort list.txt #sorts duplicates in file
+sort -r list.txt # sorts reverse in file
+sort list.txt -o output.txt #write output to file
+sort -uf #u print unque lines with no dups, f ignores case
+***
+sort -k 3.4 users.txt #sort to only print field, -k for keys, 3 field start on 4th characters
+
+cut -f 2 -d ' ' users.txt #-f field ,-d delimiter
+***
