@@ -1,0 +1,10 @@
+diff /dir1 /dir2 #compares difference of directory
+diff file1.txt file2.txt #c=change, d=delete, a=add, < words to change, > to match, 1,3c1,31 change lines 1-3 on file one to 1-3 on file two. 5,6d << deleted these lines in file1
+diff -c file1.txt file2.txt #!=change, -=delete
+diff -u
+diff -e file1.txt file2.txt > edits.txt #creates scripts for ed editor
+	ed -file1.txt < edites.txt #merge docs
+
+	uniq -c input.txt #find duplicate lines in file
+uniq input.txt output.txt #uniq deletes duplicates
+uniq -i liest.txt #i ignores case sensitive
