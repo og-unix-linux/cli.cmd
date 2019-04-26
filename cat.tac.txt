@@ -1,0 +1,2 @@
+cat -n filename.txt #cat with line number
+tac filename #view bottome of file at top
