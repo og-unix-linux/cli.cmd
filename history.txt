@@ -1,0 +1,2 @@
+history | cut -c 8- #history with no line number
+history|awk '{$1="";print substr($0,2)}'
