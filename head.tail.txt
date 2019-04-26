@@ -1,0 +1,8 @@
+head filename.txt #1st 10 lines of file
+head file*
+head -n 5 filename.txt #custom line stdout
+tail filename.txt
+tail -n 5 filename.txt
+
+| more #one page at a time, q to quit, 1+spacebar, 1z+spacebar permanent one line when spacebar is pressed
+| less #f forward, b back, 1+f, 1+b, 1w+f, 1w+b, q exit, / to search
