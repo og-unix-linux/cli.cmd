@@ -1,0 +1,7 @@
+ctrl+c #cancel cmd
+ctrl+s #pause
+ctrl+q #resume
+ctrl+z #move to bg
+jobs #show running jobs
+bg 1 #resume bg jobs
+fg 1 #bring job to forground
