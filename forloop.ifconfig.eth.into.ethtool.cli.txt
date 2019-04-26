@@ -1,0 +1,1 @@
+min=`ifconfig | grep -o '^eth[0-9$]' | grep -o '[0-9]' | head -1`;max=`ifconfig | grep -o '^eth[0-9$]' | grep -o '[0-9]' | tail -1`;for ((i=$min; i<$max+1;i++)); do;echo "`ethtool eth$i`";done
